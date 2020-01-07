@@ -1,0 +1,16 @@
+[package]
+name = "todotxt-gtk"
+version = "0.1.0"
+authors = ["hagen"]
+edition = "2018"
+
+[dependencies]
+todotxt-rs = { git = "https://github.com/hwse/todotxt-rs" }
+
+[dependencies.gtk]
+version = "0.8.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
